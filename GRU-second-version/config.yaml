@@ -1,0 +1,21 @@
+model:
+  num_dim: 2
+  obj_dim: 512
+  int_dim: 512
+  img_dim: 512
+  fuse_dim: 128
+  hidden_dim: 64
+  gru_layers: 2
+  window_size: 40
+  dropout: 0.5
+
+train:
+  epochs: 250
+  batch_size: 64
+  lr: 0.00001
+  patience: 10
+  pos_weight: 1.0       # Dựa vào biểu đồ 08, tăng trọng số cho Danger
+  oversample_danger: True
+  danger_factor: 5      # Lặp lại mẫu nguy hiểm 5 lần trong mỗi epoch
+  train_vid: []         # Để trống để tự động chia
+  val_vid: []

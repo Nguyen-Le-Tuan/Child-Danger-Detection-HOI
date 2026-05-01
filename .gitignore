@@ -1,0 +1,70 @@
+# Python & Cache
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+
+# Heavy Models (Exclude all model weights)
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+*.weights
+*.ts
+*.sh
+*.tar.gz
+*.tar
+*.zip
+
+# Data & Outputs
+VIDEOS_new/
+runs/
+*.mp4
+*.mmp4
+*.jpg
+
+# Large Folders (not for upload)
+ENTER/
+papers/
+QueryCraft/
+danger5/
+mamnon/
+upt/
+*/data/
+*/datasets/
+# IDE & OS settings
+.vscode/
+.idea/
+.DS_Store
+V_HOI_DATASET/gt_annotations/gt_bbox_test.json
+V_HOI_DATASET/gt_annotations/gt_bbox_unseen.json
+V_HOI_DATASET/gt_annotations/gt_lang_test.json
+V_HOI_DATASET/gt_annotations/gt_lang_training.json
+V_HOI_DATASET/gt_annotations/gt_lang_unseen.json
+V_HOI_DATASET/gt_annotations/gt_lang_validation.json
+V_HOI_DATASET/triplet/triplet_video_name_dict_test.p
+V_HOI_DATASET/triplet/triplet_video_name_dict_train.p
+V_HOI_DATASET/triplet/triplet_video_name_dict_unseen.p
+V_HOI_DATASET/triplet/triplet_video_name_dict_val.p
+V_HOI_DATASET/triplet/list/test_action_list.txt
+V_HOI_DATASET/triplet/list/test_object_list.txt
+V_HOI_DATASET/triplet/list/test_triplet_list.txt
+V_HOI_DATASET/triplet/list/train_action_list.txt
+V_HOI_DATASET/triplet/list/train_object_list.txt
+V_HOI_DATASET/triplet/list/train_triplet_list.txt
+V_HOI_DATASET/triplet/list/unseen_action_list.txt
+V_HOI_DATASET/triplet/list/unseen_object_list.txt
+V_HOI_DATASET/triplet/list/unseen_triplet_list.txt
+V_HOI_DATASET/triplet/list/val_action_list.txt
+V_HOI_DATASET/triplet/list/val_object_list.txt
+V_HOI_DATASET/triplet/list/val_triplet_list.txt
+
+# Additional Data and Checkpoints
+Processed_Data_Mar_20/
+Processed_Data_with_startingFRAME/
+SafeGuard_Custom_QueryCraft/tensordock_VM_src/checkpoints/
+*.csv
+!hico_verb_list.txt

@@ -1,9 +1,4 @@
-----
-----
-----
-----
-----
-----
+## 🇻🇳 Tiếng Việt: Áp dụng học sâu trong cảnh báo một số tương tác nguy hiểm của trẻ em trong nhà qua camera an ninh theo thời gian thực
 # 🛡️ Child Danger Detection via Human-Object Interaction (HOI) - NCKH
 
 Dự án Nghiên cứu khoa học (NCKH) xây dựng Hệ thống nhận diện Hành vi tương tác giữa Người và Vật thể (Human-Object Interaction - HOI) nhằm mục đích **Cảnh báo sớm và ngăn chặn các rủi ro nguy hiểm cho trẻ em**. 
